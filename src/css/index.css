@@ -1,0 +1,91 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#ccc ,#999,#333);
+    /*animation: 9s sexo infinite;*/
+}
+     body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .countdown {
+	          
+            text-align: center;
+        }
+.anime{
+    animation: 9s sexo infinite;
+  
+}
+.bg-tramparente {
+    background: #f8f9fadd;
+}
+@keyframes sexo {
+    0% {
+        background: url("/src/img/1.png") no-repeat;
+        background-size: cover;
+    }
+    50% {
+        background: url("/src/img/2.png") no-repeat;
+        background-size: cover;
+    }
+    100% {
+        background: url("/src/img/3.jpg") no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+.nav-link.active {
+    color: #007bff;
+    font-weight: bold;
+}
+.hero {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+.cta-btn {
+    margin-top: 20px;
+}
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+}
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.post-date {
+    color: #888;
+    font-size: 0.9rem;
+}
+.post-excerpt {
+    margin-top: 10px;
+}
+.hero {
+    background-color: #f8f9fa99;
+    padding: 60px 20px;
+    text-align: center;
+}
+.cta-btn {
+    margin-top: 20px;
+}

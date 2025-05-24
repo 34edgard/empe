@@ -1,0 +1,11 @@
+# Habilitar el motor de reescritura
+RewriteEngine On
+
+# Redirigir la raíz a index.php
+
+
+RewriteRule ^$ index.php [L,QSA]
+RewriteRule ^sql$ index.php [L,QSA]
+RewriteRule ^dashboard$ index.php [L,QSA]
+RewriteRule ^inicio$ index.php [L,QSA]
+RewriteRule ^Contenido$ index.php [L,QSA]
