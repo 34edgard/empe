@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(#ccc ,#999,#333);
-    /*animation: 9s sexo infinite;*/
+   /* background: linear-gradient(#ccc ,#999,#333);
+    */animation: 9s sexo infinite;
 }
      body {
             display: flex;

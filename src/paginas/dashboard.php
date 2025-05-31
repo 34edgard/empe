@@ -1,9 +1,10 @@
 <?php
 
-verificar_login();
+verificar_login("email");
 
 $config = [
   "title" => "Dashboard - E.M.P.E",
+  "styles" => ["bootstrap.min", "index"],
   "scripts" => ["htmx", "bootstrap", "Contenido"],
 ];
 

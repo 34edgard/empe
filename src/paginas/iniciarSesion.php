@@ -2,6 +2,7 @@
 $config = [
   "title" => "Registro / Inicio de Sesión - E.M.P.E",
   "nav_title" => "E.M.P.E - Registro / Inicio de Sesión",
+  "styles" => ["bootstrap.min", "index"],
   "scripts" => [
     "bootstrap",
     "htmx",

@@ -1,6 +1,8 @@
 <?php
+verificar_login("email");
 $config = [
   "title" => "inicio",
+  "styles" => ["bootstrap.min", "index"],
   "scripts" => [
     "htmx",
     "CerrarSesion",
@@ -13,7 +15,7 @@ $config = [
 ];
 
 plantilla("head", $config);
-plantilla("reloj", $config);
+//plantilla("reloj", $config);
 plantilla("body-inicio", $config);
 plantilla("nav-inicio", $config);
 plantilla("footer", $config);

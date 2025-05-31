@@ -1,6 +1,7 @@
 <?php
 $config = [
   "title" => "Cuenta Regresiva",
+  "styles" => ['bootstrap.min','index'],
   "scripts" => ['htmx','reloj']
 ];
 

@@ -1,6 +1,6 @@
 	<div class="tab-content container w-75 bg-tramparente p-3 rounded  mt-3">
 	
-	   <div class="tab-pane active fade show" id="Registro">
+	   <div class="tab-pane  fade show" id="Registro">
 
         <!-- Formulario de Registro -->
         <div class="form-section">
@@ -32,7 +32,7 @@
         </div>
 </div>
         <!-- Opción de Inicio de Sesión -->
-	   <div class="tab-pane  fade show" id="IniciarSesion" >
+	   <div class="tab-pane active  fade show" id="IniciarSesion" >
 		
         <div class="form-section">
             <h2>Inicio de Sesión</h2>

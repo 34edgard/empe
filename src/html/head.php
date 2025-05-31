@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?></title>
     <!-- Bootstrap CSS -->
-     <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="src/css/index.css" rel="stylesheet">
+    <?php foreach($styles as $estyle): ?>
+   <link href="src/css/<?= $estyle ?>.css" rel="stylesheet">
+    <?php endforeach; ?>
 </head>
 <body class="body bg-white text-secondary ">
