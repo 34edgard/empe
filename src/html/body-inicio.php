@@ -186,17 +186,23 @@
             <!-- Configuración de Cuenta -->
             <div class="tab-pane fade" id="configuracion">
                 <h2>Configuración de Cuenta</h2>
-                <form id="configuracion-form">
+                <form id="configuracion-form"
+hx-post="/Usuarios/cambiar/contrasena"
+hx-trigger="submit"
+hx-target="#Mensajes"
+
+>
                     <div class="mb-3">
                         <label for="contrasenaActual" class="form-label">Contraseña Actual</label>
-                        <input type="password" class="form-control" id="contrasenaActual" required>
+                        <input type="password" class="form-control" id="contrasenaActual" name="contrasenaActual" required>
                     </div>
                     <div class="mb-3">
                         <label for="nuevaContrasena" class="form-label">Nueva Contraseña</label>
-                        <input type="password" class="form-control" id="nuevaContrasena" required>
+                        <input type="password" class="form-control" id="nuevaContrasena" name="nuevaContrasena" required>
                     </div>
                     <button type="submit" class="btn btn-success">Actualizar Contraseña</button>
                 </form>
+<div id="Mensajes">ggggggg</div>
             </div>
         </div>
     </div>

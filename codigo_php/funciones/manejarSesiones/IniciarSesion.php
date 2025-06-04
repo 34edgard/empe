@@ -5,7 +5,7 @@
     extract($_POST);
     $vd = func_get_args();
     
-    
+    session_start();
     
     $re = $vd[1][0]($emailLogin, $contrasenaLogin);
 print_r($re);

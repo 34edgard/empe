@@ -42,6 +42,10 @@ Ruta::post("/Usuarios", $registrarUsuario, [
   "emailRegistro",
   "contrasenaRegistro",
 ]);
+Ruta::post('/Usuarios/cambiar/contrasena',$cambiarContraseña,[
+  'contrasenaActual',
+  'nuevaContrasena'
+]);
 Ruta::post("/Contenido", $subirContenido, [
   "guardar",
   "titulo",
