@@ -11,10 +11,11 @@
       echo "error la contrasena no coinside";
       return;
     }
+    $hashContrasena = password_hash($nuevaContrasena,PASSWORD_DEFAULT) ;
     $usuario = new Cliente();
     $usuario->editarDatos([
       "campos" => ["contrasena"],
-      "valores" => [$nuevaContrasena],
+      "valores" => [$hashContrasena],
       "where" => [
         ["campo" => "id", "operador" => "=", "valor" => $_SESSION["id"]],
       ],

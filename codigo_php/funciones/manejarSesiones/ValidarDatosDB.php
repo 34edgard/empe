@@ -20,11 +20,12 @@
         ],
       ],
     ]);
+    echo __line__." del archivo ".__file__."\n";
 print_r($arreglo);
-    if (password_verify($contrasenaLogin, $arreglo[0]['contrasena'])) {
+    if (password_verify($contrasenaLogin, $arreglo[0]['contrasena']) ) {
       return [true, $arreglo];
-    } else {
+    } 
       return [false];
-    }
+    
   };
 })();

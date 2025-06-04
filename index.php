@@ -14,6 +14,7 @@ sql();
 Ruta::get("/iniciarSesion", function () {
   include "./src/paginas/iniciarSesion.php";
 });
+//print_r($_POST);
 Ruta::post(
   "/iniciarSesion",
   $inicioDeSesion,
