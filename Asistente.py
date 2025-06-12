@@ -121,6 +121,7 @@ def main():
     print(Fore.YELLOW + "Escribe 'salir' para finalizar." + Style.RESET_ALL)
 
     PROJECT_PATH = input(Fore.YELLOW + "Ingresa la ruta al directorio de tu proyecto (deja en blanco si no tienes): " + Style.RESET_ALL)
+    contexto = input(Fore.YELLOW + " Defina un contexto para el chatbot (dejar en blanco si no tienes)" + Style.RESET_ALL)
     if PROJECT_PATH:
         PROJECT_PATH = PROJECT_PATH.strip()  # Eliminar espacios en blanco al inicio/final
 
