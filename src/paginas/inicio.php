@@ -7,7 +7,6 @@ $config = [
     "htmx",
     "CerrarSesion",
     "clases/ClaseSolicitud",
-    "Contenidos",
     "bootstrap",
     "subirContenidos",
     "validarFormulario",
@@ -17,5 +16,7 @@ $config = [
 plantilla("head", $config);
 //plantilla("reloj", $config);
 plantilla("body-inicio", $config);
-plantilla("nav-inicio", $config);
+plantilla("nav-inicio", [
+  "nav_items" => ["inicio", "Noticias", "Usuario", "soporteFAQ"],
+]);
 plantilla("footer", $config);

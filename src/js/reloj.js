@@ -1,4 +1,4 @@
-const countDownDate = new Date("Jan 28, 2025 00:00:00").getTime();
+const countDownDate = new Date("Ago 28, 2025 00:00:00").getTime();
 let reloj =() =>{
         // Obtener la fecha y hora actual
         const now = new Date().getTime();
