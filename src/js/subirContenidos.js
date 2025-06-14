@@ -20,7 +20,7 @@ subirContenidoBtn.addEventListener('click',()=>{
 	data.append(archivo.name,archivo.files[0]);
 	
 	
-	fetch('/Contenido', {
+	fetch('/contenido', {
 			method: "POST",
 			body: data
 		})

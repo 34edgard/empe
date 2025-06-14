@@ -57,7 +57,7 @@ let contenidos = data => {
 
 let contenidoInicio = document.getElementById("contenido");
 
-fetch("/Contenido?todo")
+fetch("/contenido?todo")
     .then(res => res.json())
     .then(res => {
         alert(res);

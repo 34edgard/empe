@@ -13,4 +13,4 @@
 		</div>
 </div>
 
-<a href="/iniciarSesion" class="btn btn-primary">inicio</a>
+<a href="/iniciar/sesion" class="btn btn-primary">inicio</a>

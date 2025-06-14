@@ -37,7 +37,7 @@
         <div class="form-section">
             <h2>Inicio de Sesión</h2>
             <form
-            hx-post='/iniciarSesion'
+            hx-post='/iniciar/sesion'
             hx-trigger='submit'
             hx-target='#mensaje'
              id="login-form">

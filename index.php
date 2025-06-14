@@ -11,12 +11,12 @@ Ruta::get("/s",function(){
 
 sql();
 });
-Ruta::get("/iniciarSesion", function () {
-  include "./src/paginas/iniciarSesion.php";
+Ruta::get("/iniciar/sesion", function () {
+  include "./src/paginas/iniciar/sesion.php";
 });
 //print_r($_POST);
 Ruta::post(
-  "/iniciarSesion",
+  "/iniciar/sesion",
   $inicioDeSesion,
   ["contrasenaLogin", "emailLogin"],
   [$ValidarDatosDB]
@@ -36,8 +36,8 @@ Ruta::get("/inicio", function () {
 Ruta::get("/dashboard", function () {
   include "./src/paginas/dashboard.php";
 });
-Ruta::get("/Contenido?todo", $contenidoTodo, ["todo"]);
-Ruta::get("/Contenido", $contenidoAprobado);
+Ruta::get("/contenido?todo", $contenidoTodo, ["todo"]);
+Ruta::get("/contenido", $contenidoAprobado);
 Ruta::post("/Usuarios", $registrarUsuario, [
   "nombre",
   "emailRegistro",
@@ -47,7 +47,7 @@ Ruta::post('/Usuarios/cambiar/contrasena',$cambiarContraseña,[
   'contrasenaActual',
   'nuevaContrasena'
 ]);
-Ruta::post("/Contenido", $subirContenido, [
+Ruta::post("/contenido", $subirContenido, [
   "guardar",
   "titulo",
   "autor",
@@ -55,3 +55,4 @@ Ruta::post("/Contenido", $subirContenido, [
   "tipo_contenido",
   "descripcion",
 ]);
+ 

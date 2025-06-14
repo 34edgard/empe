@@ -28,7 +28,7 @@ let contenidos = data=>{
 };
 
 let contenidoInicio = document.getElementById('contenido');
-fetch('/Contenido')
+fetch('/contenido')
 .then(res=>res.json())
 .then(res=>{
   

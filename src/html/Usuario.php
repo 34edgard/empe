@@ -19,7 +19,7 @@
         <!-- Formulario para subir nuevos contenidos -->
         <div class="form-section">
             <h2>Subir Nuevos Contenidos</h2>
-            <form id="upload-form" action="/Contenido/" method="post" enctype="multipart/form-data">
+            <form id="upload-form" action="/contenido/" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="titulo" class="form-label">Título del Contenido</label>
                     <input type="text" class="form-control" id="titulo" name="titulo" required>

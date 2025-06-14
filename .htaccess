@@ -5,9 +5,9 @@ RewriteBase /
 
 RewriteRule ^$ index.php [L,QSA]
 
-RewriteRule ^iniciarSesion$ index.php [L,QSA]
+RewriteRule ^iniciar/sesion$ index.php [L,QSA]
 
-RewriteRule ^sql$ index.php [L,QSA]
+RewriteRule ^s$ index.php [L,QSA]
 RewriteRule ^dashboard$ index.php [L,QSA]
 RewriteRule ^inicio$ index.php [L,QSA]
-RewriteRule ^Contenido$ index.php [L,QSA]
+RewriteRule ^contenido$ index.php [L,QSA]
